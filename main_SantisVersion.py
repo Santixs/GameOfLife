@@ -57,7 +57,7 @@ cellsState[2,39,38] = 0
 
 def save_file():
     now = datetime.now()
-    np.save(now.strftime("saved_games/%d|%m|%Y_%H:%M:%S"), cellsState)
+    np.save(now.strftime("saved_games/mod_%d|%m|%Y_%H:%M:%S"), cellsState)
 
 def load_file():
      

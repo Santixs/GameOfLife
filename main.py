@@ -47,7 +47,7 @@ cellsState[20,23] = 1
 
 def save_file():
     now = datetime.now()
-    np.savetxt(now.strftime("saved_games/%d|%m|%Y_%H:%M:%S.txt"), cellsState, fmt='%d')
+    np.savetxt(now.strftime("saved_games/original_%d|%m|%Y_%H:%M:%S.txt"), cellsState, fmt='%d')
 
 def load_file():   
     global nextCellsState
