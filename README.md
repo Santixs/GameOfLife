@@ -3,7 +3,8 @@
 Game of life, own and original, made with pygame.
 
 
-To save the board press ctrl + S and it will be saved in the saved_games folder
+To save the board press ctrl + S and it will be saved in the saved_games folder.
+
 To load a board press ctrl + L and select the file
 
 The own version has 3 states, dead, live (male) and live (female) the rules are the following:
